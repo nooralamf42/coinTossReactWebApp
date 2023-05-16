@@ -1,0 +1,31 @@
+.btn{
+    padding: 16px 32px;
+    font-size: 20px;
+    background-color: rgb(132, 0, 255);
+    color: white;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 5px auto 15px;
+}
+
+.btn:hover{
+    background-color: rgb(149, 86, 208);
+}
+
+.flex{
+    text-align: center;
+}
+
+.dNone{
+    display: none;
+}
+
+.result{
+    font-size: 60px;
+}
+
+.loadingImg{
+    width: 350px;
+}
