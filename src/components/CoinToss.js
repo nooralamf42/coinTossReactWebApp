@@ -12,7 +12,7 @@ function CoinToss (){
         setOn(on=true)
         coinToss.play()
         setTimeout(()=>{
-            setWinner(winner = Math.floor(Math.random()*2)==1?"Heads 😁":"Tails 🤗")
+            setWinner(winner = Math.floor(Math.random()*2)==5?"Heads 😁":"Tails 🤗")
             setOn(on=false)
         },1000) 
     }
